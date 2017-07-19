@@ -1,51 +1,39 @@
-/*=======Media Queries======================*/
+
 
 
 
 
 /*=======Navbar Rules======================*/
+.navScale {
+  width: 100%;
+}
+
+.topRocker {
+  display: flex:
+  flex-wrap: nowrap;
+  width: 100%;
+}
 
 .kclownslogo {
-  width: 85%;
-  padding-left: -1px;
+  width: 80%;
+  padding-left: 5px;
 }
-
-
-.MinDiv {
-  padding 5px 5px 5px 5px;
-}
-
-a {
-  display: block;
-  font-size: 1.5em;
-  color: white;
-  border: 5px;
-  border-color: white;
-}
-
-.NavWrap {
-  flex-wrap: nowrap;
-}
-
-.menu-btn {
-  display: block;
-  border: 3px;
-  font-size: 2.5em;
-  color: white;
-  padding-left: 10px;
-}
-
-.menu-btn:hover {
-  border: 3px;
-  font-size: 2.5em;
-  color: #f1c40f;
-  padding-left: 10px;
-}
+.glyphicon-menu-hamburger {
+    padding-top: 10px;
+  }
 
 .navbar {
   color: #fff;
   width: 100%;
   border-bottom: black;
+}
+
+.glyphicon-menu-hamburger {
+  font-size: 2.5em;
+}
+
+.menu-btn:hover {
+  color:#e2c312;
 }
 
 .controls {
@@ -63,6 +51,7 @@ a {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 20px;
     z-index: 100;
 
 }
@@ -98,33 +87,90 @@ a {
     border-radius: 20px;
     font-family: Baloo;
     background-color: #e2c312;
-    text-decoration-color: black;
     color: purple;
     align-self: bottom;
+    margin-top: 20px;
 }
 
-#story {
-  padding-top: 10%;
-}
+
 
 #email {
   padding-bottom: 5%;
 }
 
 /*-------------------Index.html--*/
-.carousel {
+.container {
+  display: flex;
   width: 100%;
-  padding-left: 0 5% 0 5%;
-  border-bottom: 4px;
-  border-color: black;
 }
 
+.kcarousel {
+  width: 100%;
+  padding-top: 7%;
+}
+
+
+
 .social {
-  align-items: flex-end;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+.fb-btn:hover,
+.inst-btn:hover {
+  width: 60px;
+}
+
+ .fbImg,
+ .inst
+          {
+  width: 45px;
+}
+
+.youtube {
+  width: 80px;
+}
+
+.youtube:hover {
+  width: 100px;
 }
 
 .jumbotron {
   padding: 5% 5% 5% 5%;
+}
+
+.controls a {
+  font-size: 1.3em;
+  color: #1a53ff;
+
+}
+
+#story,
+#clowns,
+#shows,
+#hireUs,
+#signUp,
+#email {
+  display: block;
+  font-size: 1.3em;
+  padding: 6px 6px 6px 6px;
+  color: white;
+}
+
+#story:hover,
+#clowns:hover,
+#shows:hover,
+#hireUs:hover,
+#signUp:hover,
+#email:hover {
+  display: block;
+  size: 3em;
+  text-decoration: none;
+  color: #e2c312;
+}
+
+.get-involvedModal {
+  z-index: 200;
 }
 /*------------------Characters Page--*/
 

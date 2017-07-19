@@ -30,7 +30,7 @@ var clownsObj = [
         image: '<img class="biopic" src = "images/charPics/duke.jpg">',
         characterType: '<li>Gonzo Clown</li>',
         tagline: 'Borboun!',
-        description: "Duke is the clown manifestation of the late great Hunter S. Thompson Gonzo Journalist and Author. Duke is also the unofficial 'mascot' of Louisville's Gonzofest, a Festival honoring Hunter's legacy.</li>"
+        description: "Duke is the clown manifestation of the late great Hunter S. Thompson Gonzo Journalist and Au      thor. Duke is also the unofficial 'mascot' of Louisville's Gonzofest, a Festival honoring Hunter's legacy.</li>"
     },
 
     {
