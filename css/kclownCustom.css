@@ -1,26 +1,13 @@
 /*=======Media Queries======================*/
 
-@media (max-width="768") {
-  .kclownslogo {
-    background-image: url(images/kclownslogo.jpg);
-  }
 
-  .picDisplay {
-      background-image: url(../images/IMG_5441sm.JPG);
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      background-repeat: no-repeat;
-  }
-}
 
 
 /*=======Navbar Rules======================*/
 
 .kclownslogo {
-  width: 88%;
-  padding-left: 10px;
+  width: 85%;
+  padding-left: -1px;
 }
 
 .youtube {
@@ -31,16 +18,6 @@
 .MinDiv {
   padding 5px 5px 5px 5px;
 }
-.glyphicon {
-  display: block;
-  border: 2px;
-  border-color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 3em;
-  padding-top: 4%;
-}
-
 
 a {
   display: block;
@@ -54,13 +31,25 @@ a {
   flex-wrap: nowrap;
 }
 
-.glyphicon {
-  border: 4px;
-  border-color: white;
+.menu-btn {
+  display: block;
+  border: 3px;
+  font-size: 2.5em;
+  color: white;
+  padding-left: 10px;
+}
+
+.menu-btn:hover {
+  border: 3px;
+  font-size: 2.5em;
+  color: #f1c40f;
+  padding-left: 10px;
 }
 
 .navbar {
-  text-color: #fff;
+  color: #fff;
+  width: 100%;
+  border-bottom: black;
 }
 
 .controls {
@@ -70,15 +59,15 @@ a {
     display: none;
     width: 90%;
     position: relative;
-    border-radius: 10px;
-    background-image: url(../images/paintsplatter.png);
+    border-radius: 20px;
+    background-image: url("../images/paintsplatter.png");
     opacity: 80%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 3;
+    z-index: 100;
 
 }
 
@@ -104,6 +93,7 @@ a {
 
 .controls a:hover {
     transform: scale(1.4);
+    text-decoration: none;
 }
 
 .close-btn {
@@ -116,13 +106,24 @@ a {
     align-self: bottom;
 }
 
-
-#linko {
-
+#story {
+  padding-top: 10%;
 }
+
+#email {
+  padding-bottom: 5%;
+}
+
 /*-------------------Index.html--*/
-.KclownBGimg {
-  back: url('images/IMG_2730.jpg');
+.carousel {
+  width: 100%;
+  padding-left: 0 5% 0 5%;
+  border-bottom: 4px;
+  border-color: black;
+}
+
+.jumbotron {
+  padding: 5% 5% 5% 5%;
 }
 /*------------------Characters Page--*/
 
