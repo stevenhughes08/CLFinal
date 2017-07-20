@@ -26,6 +26,7 @@
   color: #fff;
   width: 100%;
   border-bottom: black;
+  z-index: 10;
 }
 
 .glyphicon-menu-hamburger {
@@ -106,14 +107,19 @@
 
 .kcarousel {
   width: 100%;
-  padding-top: 7%;
+  padding-top: 10%;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+
 }
 
 
 
 .social {
   width: 100%;
-  padding: 20px 0 20px 0;
+  margin-top: -1px;
 }
 
 .fb-btn:hover,
@@ -139,10 +145,13 @@
   padding: 5% 5% 5% 5%;
 }
 
+.jumbotron p {
+  font-size: 10pt;
+}
+
 .controls a {
   font-size: 1.3em;
   color: #1a53ff;
-
 }
 
 #story,
@@ -169,9 +178,9 @@
   color: #e2c312;
 }
 
-.get-involvedModal {
-  z-index: 200;
-}
+/*.get-involvedModal {
+  z-index: 300;
+}*/
 /*------------------Characters Page--*/
 
 
