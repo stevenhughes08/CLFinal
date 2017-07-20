@@ -154,6 +154,11 @@
   color: #1a53ff;
 }
 
+.btn,
+.btn-no-highlight {
+  outline: none !important;
+}
+
 #story,
 #clowns,
 #shows,
@@ -325,5 +330,33 @@
 
 .actor {
   padding-top: 30px;
+  font-weight: bold;
+}
+
+
+/*--Shows page--*/
+
+.vid {
+  padding-top: 30px;
+}
+
+.conti {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.vidpad {
+  padding-top: 180px;
+}
+
+.textcl {
+  padding-left: 50px;
+}
+
+.coat,
+.bus-stop,
+.painoman,
+.gun {
+  font-size: 2em;
   font-weight: bold;
 }
