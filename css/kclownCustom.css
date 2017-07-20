@@ -360,3 +360,13 @@
   font-size: 2em;
   font-weight: bold;
 }
+
+
+/*--Hire page--*/
+.under {
+  padding-top: 300px;
+}
+
+.durak {
+  background-image: url("images/clownNoBGsm.png");
+}
