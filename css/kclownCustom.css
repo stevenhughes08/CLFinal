@@ -183,11 +183,17 @@
 }*/
 /*------------------Characters Page--*/
 
+.clownList {
+  width: 100%;
+  list-style-type: none;
+  margin-top: 60px;
+}
 
 .name0 {
-    margin-top: 60px;
+    margin-left: 20px;
+    margin-top: 200px;
     padding-left: 20px;
-    width: 100%;
+    width: 90%;
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
     letter-spacing: 2.35px;
@@ -197,8 +203,9 @@
  }
 
 .name1 {
+  margin-left: 20px;
   padding-left: 20px;
-  width: 100%;
+  width: 90%;
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: 2.35px;
@@ -208,8 +215,9 @@
 }
 
  .name2 {
+   margin-left: 20px;
    padding-left: 20px;
-   width: 100%;
+   width: 90%;
    color: white;
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: 2.35px;
@@ -218,8 +226,9 @@
    background: rgba(0, 0, 0, 0.7);
 }
   .name3 {
+    margin-left: 20px;
     padding-left: 20px;
-    width: 100%;
+    width: 90%;
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
     letter-spacing: 2.35px;
@@ -229,8 +238,9 @@
  }
 
  .name4 {
+   margin-left: 20px;
    padding-left: 20px;
-   width: 100%;
+   width: 90%;
    color: white;
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: 2.35px;
@@ -240,8 +250,9 @@
 }
 
 .name5 {
+  margin-left: 20px;
   padding-left: 20px;
-  width: 100%;
+  width: 90%;
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: 2.35px;
@@ -251,8 +262,9 @@
 }
 
 .name6 {
+  margin-left: 20px;
   padding-left: 20px;
-  width: 100%;
+  width: 90%;
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: 2.35px;
@@ -262,8 +274,9 @@
 }
 
 .name7 {
+  margin-left: 20px;
   padding-left: 20px;
-  width: 100%;
+  width: 90%;
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: 2.35px;
@@ -274,22 +287,43 @@
 
 .name8 {
   padding-left: 20px;
-  width: 100%;
+  width: 90%;
   color: white;
   font: bold 24px/45px Helvetica, Sans-Serif;
   letter-spacing: 2.35px;
   border-radius: 20px;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
+  margin-left: 30px;
 }
 
 .clownsText {
-  list-style-type: none;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .biopic {
+  margin-left: 10%;
+}
+
+.biopic img {
+    margin-left: 8%;
     padding-left: 2%;
-    border-radius: 0px 0px 0px 0px;
-    width: 80%;
+    border-radius: 10px 0px 10px 0px;
+    width: 50%;
+}
+
+.tag {
+  font-size: 1.5em;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.disc {
+  padding: 10px 30px 10px 30px;
+}
+
+.actor {
+  padding-top: 30px;
+  font-weight: bold;
 }
