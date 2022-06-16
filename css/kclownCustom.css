@@ -1,46 +1,43 @@
-
-
-
-
-
 /*=======Navbar Rules======================*/
+
 .navScale {
-  width: 100%;
+    width: 100%;
 }
 
 .topRocker {
-  display: flex:
-  flex-wrap: nowrap;
-  width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .kclownslogo {
-  width: 80%;
-  padding-left: 5px;
+    width: 80%;
+    padding-left: 5px;
 }
+
 .glyphicon-menu-hamburger {
     padding-top: 10px;
-  }
+}
 
 .navbar {
-  color: #fff;
-  width: 100%;
-  border-bottom: black;
-  z-index: 10;
+    color: #fff;
+    width: 100%;
+    border-bottom: black;
+    z-index: 10;
 }
 
 .glyphicon-menu-hamburger {
-  font-size: 2.5em;
+    font-size: 2.5em;
 }
 
 .menu-btn:hover {
-  color:#e2c312;
+    color: #e2c312;
 }
 
 .controls {
     border: 2px;
     border-color: black;
-    background-color: #black;
+    background-color: black;
     display: none;
     width: 90%;
     position: relative;
@@ -54,7 +51,6 @@
     background-repeat: no-repeat;
     padding-top: 20px;
     z-index: 100;
-
 }
 
 .controls p {
@@ -74,7 +70,6 @@
 
 .controls a {
     text-decoration: none;
-
 }
 
 .controls a:hover {
@@ -93,70 +88,66 @@
     margin-top: 20px;
 }
 
-
-
 #email {
-  padding-bottom: 5%;
+    padding-bottom: 5%;
 }
 
+
 /*-------------------Index.html--*/
+
 .container {
-  display: flex;
-  width: 100%;
+    display: flex;
+    width: 100%;
 }
 
 .kcarousel {
-  width: 100%;
-  padding-top: 10%;
+    width: 100%;
+    padding-top: 10%;
 }
 
-.carousel-inner > .item > img {
-  margin: 0 auto;
-
+.carousel-inner>.item>img {
+    margin: 0 auto;
 }
-
-
 
 .social {
-  width: 100%;
-  margin-top: -1px;
+    width: 100%;
+    margin-top: -1px;
 }
 
 .fb-btn:hover,
 .inst-btn:hover {
-  width: 60px;
+    width: 60px;
 }
 
- .fbImg,
- .inst
-          {
-  width: 45px;
+.fbImg,
+.inst {
+    width: 45px;
 }
 
 .youtube {
-  width: 80px;
+    width: 80px;
 }
 
 .youtube:hover {
-  width: 100px;
+    width: 100px;
 }
 
 .jumbotron {
-  padding: 5% 5% 5% 5%;
+    padding: 5% 5% 5% 5%;
 }
 
 .jumbotron p {
-  font-size: 10pt;
+    font-size: 10pt;
 }
 
 .controls a {
-  font-size: 1.3em;
-  color: #1a53ff;
+    font-size: 1.3em;
+    color: #1a53ff;
 }
 
 .btn,
 .btn-no-highlight {
-  outline: none !important;
+    outline: none !important;
 }
 
 #story,
@@ -165,10 +156,10 @@
 #hireUs,
 #signUp,
 #email {
-  display: block;
-  font-size: 1.3em;
-  padding: 6px 6px 6px 6px;
-  color: white;
+    display: block;
+    font-size: 1.3em;
+    padding: 6px 6px 6px 6px;
+    color: white;
 }
 
 #story:hover,
@@ -177,21 +168,24 @@
 #hireUs:hover,
 #signUp:hover,
 #email:hover {
-  display: block;
-  size: 3em;
-  text-decoration: none;
-  color: #e2c312;
+    display: block;
+    size: 3em;
+    text-decoration: none;
+    color: #e2c312;
 }
+
 
 /*.get-involvedModal {
   z-index: 300;
 }*/
+
+
 /*------------------Characters Page--*/
 
 .clownList {
-  width: 100%;
-  list-style-type: none;
-  margin-top: 60px;
+    width: 100%;
+    list-style-type: none;
+    margin-top: 60px;
 }
 
 .name0 {
@@ -203,34 +197,12 @@
     font: bold 24px/45px Helvetica, Sans-Serif;
     letter-spacing: 2.35px;
     border-radius: 20px;
-    background: rgb(0, 0, 0); /* fallback color */
+    background: rgb(0, 0, 0);
+    /* fallback color */
     background: rgba(0, 0, 0, 0.7);
- }
+}
 
 .name1 {
-  margin-left: 20px;
-  padding-left: 20px;
-  width: 90%;
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: 2.35px;
-  border-radius: 20px;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
-}
-
- .name2 {
-   margin-left: 20px;
-   padding-left: 20px;
-   width: 90%;
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: 2.35px;
-   border-radius: 20px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-}
-  .name3 {
     margin-left: 20px;
     padding-left: 20px;
     width: 90%;
@@ -238,77 +210,109 @@
     font: bold 24px/45px Helvetica, Sans-Serif;
     letter-spacing: 2.35px;
     border-radius: 20px;
-    background: rgb(0, 0, 0); /* fallback color */
+    background: rgb(0, 0, 0);
+    /* fallback color */
     background: rgba(0, 0, 0, 0.7);
- }
+}
 
- .name4 {
-   margin-left: 20px;
-   padding-left: 20px;
-   width: 90%;
-   color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: 2.35px;
-   border-radius: 20px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
+.name2 {
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 90%;
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: 2.35px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.name3 {
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 90%;
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: 2.35px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.name4 {
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 90%;
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: 2.35px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .name5 {
-  margin-left: 20px;
-  padding-left: 20px;
-  width: 90%;
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: 2.35px;
-  border-radius: 20px;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 90%;
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: 2.35px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .name6 {
-  margin-left: 20px;
-  padding-left: 20px;
-  width: 90%;
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: 2.35px;
-  border-radius: 20px;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 90%;
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: 2.35px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .name7 {
-  margin-left: 20px;
-  padding-left: 20px;
-  width: 90%;
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: 2.35px;
-  border-radius: 20px;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 90%;
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: 2.35px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .name8 {
-  padding-left: 20px;
-  width: 90%;
-  color: white;
-  font: bold 24px/45px Helvetica, Sans-Serif;
-  letter-spacing: 2.35px;
-  border-radius: 20px;
-  background: rgb(0, 0, 0); /* fallback color */
-  background: rgba(0, 0, 0, 0.7);
-  margin-left: 30px;
+    padding-left: 20px;
+    width: 90%;
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: 2.35px;
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    margin-left: 30px;
 }
 
 .clownsText {
-  padding-left: 5%;
-  padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .biopic {
-  margin-left: 10%;
+    margin-left: 10%;
 }
 
 .biopic img {
@@ -319,54 +323,55 @@
 }
 
 .tag {
-  font-size: 1.5em;
-  font-style: oblique;
-  font-weight: bold;
+    font-size: 1.5em;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .disc {
-  padding: 10px 30px 10px 30px;
+    padding: 10px 30px 10px 30px;
 }
 
 .actor {
-  padding-top: 30px;
-  font-weight: bold;
+    padding-top: 30px;
+    font-weight: bold;
 }
 
 
 /*--Shows page--*/
 
 .vid {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 .conti {
-  padding-left: 40px;
-  padding-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .vidpad {
-  padding-top: 180px;
+    padding-top: 180px;
 }
 
 .textcl {
-  padding-left: 50px;
+    padding-left: 50px;
 }
 
 .coat,
 .bus-stop,
 .painoman,
 .gun {
-  font-size: 2em;
-  font-weight: bold;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 
 /*--Hire page--*/
+
 .under {
-  padding-top: 300px;
+    padding-top: 300px;
 }
 
 .durak {
-  background-image: url("images/clownNoBGsm.png");
+    background-image: url("images/clownNoBGsm.png");
 }
